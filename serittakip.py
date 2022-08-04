@@ -28,7 +28,7 @@ def toplam(resim):
     #cizgiler = cv2.HoughLinesP(kesit, 1, np.pi/180,30)
     son = cizgi(resim,cizgiler)
     return son
-video = cv2.VideoCapture('yeni.mp4')
+video = cv2.VideoCapture('yeni2.mp4')
 while True:
     ret,goruntu = video.read()
     goruntu2 = toplam(goruntu)
